@@ -3,8 +3,7 @@ requirejs.config({
         "jquery": "jquery-1.9.1.min",
         "jquery.easing": "jquery.easing.1.3",
         "jquery.mousewheel": "jquery.mousewheel",
-        "jquery.bootstrap": "bootstrap.min",
-        "quo": "quo"
+        "jquery.bootstrap": "bootstrap.min"
     },
     shim: {
         "jquery.bootstrap": {
@@ -14,9 +13,6 @@ requirejs.config({
             desp: ["jquery"]
         },
         "jquery.mousewheel": {
-            desp: ["jquery"]
-        },
-        "quo": {
             desp: ["jquery"]
         }
     }
